@@ -52,7 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Lottie.asset('assets/ani1.json'),
+                  const Text("How I'm feeling right now"),
+                  Lottie.asset('assets/ani2.json'),
                 ],
               ),
             )
